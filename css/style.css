@@ -1,0 +1,104 @@
+/* personal website stylesheet */
+/* General formatting */
+body{
+  font-family: helvetica;
+  background-color: white;
+  }
+
+.navbar{
+  overflow: hidden;
+  background-color: #4d4d4d;
+  width: fill-availavle;
+  padding:4vh;
+  }
+.navbar a {
+  color: #e6e6e6;
+  padding: 10px;
+}
+.navbar a:hover{
+  color: #ff8080;
+  transition: ease;
+}
+/*.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }*/
+h1{
+  display:flex;
+  justify-content: center;
+  font-weight: 520;
+  color: #737373;
+  font-size: 2em;
+}
+
+h2{
+  display:flex;
+  justify-content: center;
+  font-weight: 520;
+  color: #737373;
+  font-size: 1.5em;
+}
+h3{
+  display:flex;
+  justify-content: center;
+  font-weight: 520;
+  color: #737373;
+  font-size: 1.2em;
+}
+
+h4{
+  font-weight: 520;
+  color: #737373;
+  font-size: 1em;
+}
+
+h5{
+  font-weight: 520;
+  color: #737373;
+  font-size: .9em;
+}
+p{
+  margin-left: 50vh;
+  margin-right: 50vh;
+  font-size: .9em;
+  color: #808080;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+li{
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: .9em;
+  color: #808080;
+  }
+
+a{
+  color: #b3b3b3;
+  text-decoration: none;
+  }
+
+a:hover{
+  color: #ff8080;
+  text-decoration: none;
+}
+
+/*Home Page */
+
+#Profile h2{
+  display:flex;
+  justify-content: center;
+  padding:
+}
+
+/* CV Page */
+#CV{
+  display:flex;
+  justify-content: center;
+}
+#Education h4{
+display:flex;
+justify-content: flex-start;
+}

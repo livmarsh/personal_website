@@ -2,7 +2,7 @@
 /* General formatting */
 body{
   font-family: helvetica;
-  background-color: white;
+  background-image: url("../images/background_dots.jpg");
   }
 
 .navbar{
@@ -11,12 +11,15 @@ body{
   width: fill-availavle;
   padding:4vh;
   }
+.navbar input[type=text]{
+    float: right;
+}
 .navbar a {
   color: #e6e6e6;
   padding: 10px;
 }
 .navbar a:hover{
-  color: #ff8080;
+  color: rgb(204, 135, 0);
   transition: ease;
 }
 /*.sticky {
@@ -81,7 +84,7 @@ a{
   }
 
 a:hover{
-  color: #ff8080;
+  color: rgb(204, 135, 0);
   text-decoration: none;
 }
 
@@ -90,15 +93,5 @@ a:hover{
 #Profile h2{
   display:flex;
   justify-content: center;
-  padding:
-}
 
-/* CV Page */
-#CV{
-  display:flex;
-  justify-content: center;
-}
-#Education h4{
-display:flex;
-justify-content: flex-start;
 }
